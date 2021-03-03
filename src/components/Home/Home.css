@@ -6,9 +6,22 @@
     color: white;
     font-family: 'Dosis', sans-serif;    
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 
-.homeImage{
-    width: 50vw;
+.homeimage{
+    margin-top: 200px;
+    height: 15vw;
+}
+
+.homeHeading{
+    width: 75vw;
+    text-align: center;
+}
+
+@media only screen and (max-width: 798px){
+    .homeimage{
+        height: 40vw;
+    }
 }
