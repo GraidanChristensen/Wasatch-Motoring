@@ -16,12 +16,14 @@
 }
 
 .homeHeading{
-    width: 75vw;
+    width: 50vw;
     text-align: center;
 }
+
 
 @media only screen and (max-width: 798px){
     .homeimage{
         height: 40vw;
     }
+
 }

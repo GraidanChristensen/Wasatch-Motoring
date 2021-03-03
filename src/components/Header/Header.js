@@ -52,7 +52,7 @@ class Header extends Component{
                     Contact Us
                 </Link>
             </ul>
-            <h3 className="headerPhone">1-801-874-0234</h3>
+            <h4 className="headerPhone">1-801-874-0234</h4>
             <Link className="menuLink"
                     activeClass="active"
                     to="Home"

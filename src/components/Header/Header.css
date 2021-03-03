@@ -50,7 +50,21 @@
 .headerPhone{
     margin-right: 50px;
 }
-@media only screen and (max-width: 798px){
+
+
+@media only screen and (max-width: 1375px){
+    .headerLogo{
+        display: none;
+    }
+    .headerPhone{
+        display: none;
+    }
+    .menu{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px){
     .menu{
         display: none;
     }
