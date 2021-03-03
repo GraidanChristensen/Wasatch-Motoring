@@ -7,8 +7,10 @@ class Products extends Component{
     return (
         <div className="Products" id="Products">
             <div className="productChild">
+                <Fade bottom>
                 <a rel="noreferrer" target="_blank" href="https://www.permaplate.com/film"><img alt="perma plate" className="permaPlate" src="https://permaplateaddendums.com/wp-content/themes/va/img/horizontal-logo.png"/></a>
                 <h2>We use the very best film products available. We use Permaplate's Clearplate and Solarplate film. </h2>
+                </Fade>
             </div>
             <div className="productChild">
                 <Fade bottom>
