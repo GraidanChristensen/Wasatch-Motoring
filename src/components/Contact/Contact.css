@@ -1,0 +1,17 @@
+.Contact{
+    background-color: wnite;
+    min-height: 25vh;
+    color: rgb(48, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.contactContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

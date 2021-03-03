@@ -1,0 +1,66 @@
+.Products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.permaIntro{
+    background-color:white;
+}
+
+.permaPlate{
+    width: 250px;
+    margin-top: 50px;
+}
+
+.productChild h2{
+    text-align: center;
+    width: 70vw;
+}
+
+.productChild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px 0;
+}
+
+.coatImage{
+    background-image: url("https://static.wixstatic.com/media/dfeb02_217dd4d59e574214a1781d8de48a93a7~mv2.jpg/v1/fill/w_2500,h_485,al_c,q_85/dfeb02_217dd4d59e574214a1781d8de48a93a7~mv2.webp");
+}
+
+.productImage{
+    width: 60vw;
+}
+
+.tintImage{
+    height: 100vh;
+    width: 100%;
+}
+
+.solarplate{
+    padding-top: 70px;
+    min-height: 100vh;
+    background-image: url("https://static.wixstatic.com/media/dfeb02_106e0789cc01404fac5bbd3358160074~mv2_d_3000_1500_s_2.jpg/v1/fill/w_3000,h_1065,al_t,q_90/dfeb02_106e0789cc01404fac5bbd3358160074~mv2_d_3000_1500_s_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.solarplate h1{
+    color: white;
+    text-align: center;
+}
+
+.solarInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}

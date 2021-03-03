@@ -1,0 +1,27 @@
+.Header{
+    position: fixed;
+    height: 75px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(70, 70, 70);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.menu{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phoneNumber{
+    margin-right: 50px;
+}
