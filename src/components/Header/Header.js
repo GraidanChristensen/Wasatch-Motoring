@@ -14,6 +14,15 @@ class Header extends Component{
   render(){
     return (
         <div className="Header">
+                <Link
+                    activeClass="active"
+                    to="Home"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                    <img className="headerLogo" src={logo} alt="logo" />
+                </Link>
             <ul className="menu">
                 <Link className="menuLink"
                     activeClass="active"
@@ -43,6 +52,7 @@ class Header extends Component{
                     Contact Us
                 </Link>
             </ul>
+            <h3 className="headerPhone">1-801-874-0234</h3>
             <Link className="menuLink"
                     activeClass="active"
                     to="Home"
