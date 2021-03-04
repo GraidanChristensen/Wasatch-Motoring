@@ -7,7 +7,7 @@ class Home extends Component{
     return (
         <div className="Home" id="Home">
             <img className="homeimage" src={biglogo} alt="logo"/>
-            <h2 className="homeHeading">Utah County's new go to for window tinting and protective clear coat. Call or email us to set up an appointment</h2>
+            <h2 className="homeHeading">Utah County's new go to for window tinting and paint protection film. Call or email us to set up an appointment</h2>
         </div>
     )
   }
