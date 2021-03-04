@@ -1,5 +1,5 @@
 import './Products.css';
-import {Fade} from 'react-reveal';
+// import {Fade} from 'react-reveal';
 import {Component} from 'react';
 
 class Products extends Component{
