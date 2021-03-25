@@ -51,6 +51,9 @@
     margin-right: 50px;
 }
 
+.phoneLink{
+    display: none;
+}
 
 @media only screen and (max-width: 1375px){
     .headerLogo{
@@ -84,5 +87,9 @@
 
     .headerLogo{
         display: none;
+    }
+
+    .phoneLink{
+        display: inline;
     }
 }

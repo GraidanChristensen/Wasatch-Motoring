@@ -62,7 +62,15 @@ class Header extends Component{
                     duration={500}>
                     <img className="logo" src={logo} alt="logo" />
                 </Link>
-              <h5 className="phone">1-801-874-0234</h5>
+            <Link className="phoneLink"
+                    activeClass="active"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                    Contact Us
+                </Link>
         </div>
     )
   }
