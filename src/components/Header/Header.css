@@ -91,5 +91,6 @@
 
     .phoneLink{
         display: inline;
+        cursor: pointer;
     }
 }
