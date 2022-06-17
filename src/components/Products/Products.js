@@ -8,23 +8,17 @@ class Products extends Component{
         <div className="Products" id="Products">
             <div className="productChild">
                 <Fade bottom>
-                <a rel="noreferrer" target="_blank" href="https://www.permaplate.com/film"><img alt="perma plate" className="permaPlate" src="https://permaplateaddendums.com/wp-content/themes/va/img/horizontal-logo.png"/></a>
-                <h2>We use the very best film products available. We use Permaplate's Clearplate and Solarplate film. </h2>
+                <a target="_blank" href="https://www.xpel.com/products/paint-protection-film"><img alt="clear coat" className="coatImage" src="https://www.autopaintguard.com/wp-content/uploads/2018/06/XPEL-LOGO.png"/></a>
+                <img className="clearCoatProductImage" alt="productImage"  src="https://images.squarespace-cdn.com/content/v1/5b58bd9dc3c16a66c99e6397/1542405933553-4TDK17HYCL5CIA50Y9H5/XPEL.Tesla.png?format=1500w"/>
+                <h2>We use XPEL's paint protection film. A virtually invisible urethane film that protects your vehicle's paint from unsightly damage and maximizes re-sale value.</h2> 
                 </Fade>
             </div>
-            <div className="productChild">
+            <div className="tintContainer">
                 <Fade bottom>
-                <a rel="noreferrer" target="_blank" href="https://www.permaplate.com/film"><img alt="clearplate" className="coatImage" src="https://static.wixstatic.com/media/dfeb02_6b9d7e54da9f4e7e90e135edc90cc083~mv2.png/v1/fill/w_508,h_98,al_c,q_85,usm_0.66_1.00_0.01/dfeb02_6b9d7e54da9f4e7e90e135edc90cc083~mv2.webp"/></a>
-                <img className="productImage" alt="productImage"  src="https://static.wixstatic.com/media/dfeb02_e81b4f3baa6f4358b48275f06b83ab90~mv2.png/v1/fill/w_1175,h_390,al_c,lg_1,q_90/dfeb02_e81b4f3baa6f4358b48275f06b83ab90~mv2.webp"/>
-                <h2>Clearplate provides a virtually invisible urethane film that can be contoured around the most complex surfaces without distortion. The film protects your paint from high-impact areas and acidic deterioration. </h2> 
-                </Fade>
-            </div>
-            <div className="solarplate">
-                <Fade bottom>
-                <h1 className="solarfiller"> </h1>
-                <div className="solarInfo">
-                    <a rel="noreferrer" target="_blank" href="https://www.permaplate.com/film"><img className="solarplateimage" alt="solarplate" src="https://static.wixstatic.com/media/dfeb02_20ac5eb0b7064305bf741f7714a2856b~mv2.png/v1/fill/w_508,h_98,al_c,q_85,usm_0.66_1.00_0.01/dfeb02_20ac5eb0b7064305bf741f7714a2856b~mv2.webp"/></a>
-                    <h1>Permaplate's Solarplate is the best window tint on the market. It provides glare reduction, superior UV protection and comes with a limited lifetime warranty. </h1> 
+                <h1 className="tintFiller"> </h1>
+                <div className="tintInfo">
+                    <a target="_blank" href="https://www.xpel.com/products/window-film/automotive-window-tint"><img className="tintLogo" alt="xpel tint" src="https://www.ruddicksdetail.com/wp-content/uploads/xpel_prime_window_tint_film.png"/></a>
+                    <h2>XPEL's prime window film is the best tint on the market. It provides glare reduction and superior UV protection, recommended by the Skin Cancer Foundation.</h2> 
                 </div>
                 </Fade>
             </div>

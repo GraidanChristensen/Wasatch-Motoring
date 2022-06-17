@@ -8,10 +8,6 @@
     max-width: 100vw;
 }
 
-.permaIntro{
-    background-color:white;
-}
-
 .permaPlate{
     width: 250px;
     margin-top: 50px;
@@ -31,10 +27,10 @@
 }
 
 .coatImage{
-    background-image: url("https://static.wixstatic.com/media/dfeb02_217dd4d59e574214a1781d8de48a93a7~mv2.jpg/v1/fill/w_2500,h_485,al_c,q_85/dfeb02_217dd4d59e574214a1781d8de48a93a7~mv2.webp");
+    width: 250px;
 }
 
-.productImage{
+.clearCoatProductImage{
     width: 60vw;
 }
 
@@ -43,7 +39,7 @@
     width: 100%;
 }
 
-.solarplate{
+.tintContainer{
     padding-top: 70px;
     width: 100%;
     min-height: 100vh;
@@ -56,31 +52,37 @@
     justify-content: space-around;
 }
 
-.solarplate h1{
+.tintContainer h1{
     color: white;
     text-align: center;
 }
 
-.solarInfo{
+.tintContainer h2{
+    color: white;
+    text-align: center;
+}
+
+.tintInfo{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 70%;
 }
 
-@media only screen and (max-width: 798px){
-    /* .solarfiller{
-        display: none;
-    } */
+.tintLogo{
+    width: 300px;
+    background-color: white;
+}
 
+@media only screen and (max-width: 798px){
     .coatImage{
         width: 50vw;
     }
 
-    .productImage{
+    .clearCoatProductImage{
         width: 85%;
     }
-    .solarplateimage{
+    .tintLogo{
         width: 50vw;
         margin-bottom: 20px;
     }

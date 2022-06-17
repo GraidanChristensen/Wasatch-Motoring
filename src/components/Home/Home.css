@@ -1,30 +1,58 @@
 .Home{
     height: 100vh;
-    background-image: url("https://static.wixstatic.com/media/dfeb02_217dd4d59e574214a1781d8de48a93a7~mv2.jpg/v1/fill/w_1115,h_615,al_c,q_85/dfeb02_217dd4d59e574214a1781d8de48a93a7~mv2.webp");
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/2021-toyota-trd-model-108-1594132062.jpg?crop=0.907xw:0.760xh;0.0481xw,0.240xh&resize=2048:*");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .homeimage{
-    margin-top: 200px;
-    height: 15vw;
+    height: 18vh;
+}
+
+.homeCompanyName{
+    font-size: 50px;
 }
 
 .homeHeading{
-    width: 50vw;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 60vw;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
+.scheduleContainer{
+    display: flex;
+}
+
+.scheduleButton{
+    padding: 15px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
 
 @media only screen and (max-width: 798px){
+    .homeHeading{
+        margin-top: 120px;
+    }
     .homeimage{
-        height: 40vw;
+        height: 15vh;
     }
 
 }

@@ -1,19 +1,30 @@
 .Header{
-    position: absolute;
+    position: fixed;
     height: 75px;
     width:100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    color: rgb(70, 70, 70);
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 1000;
+    transition: color .5s ease;
+    transition: background .5s ease;
+    z-index: 10000;
 }
 
-.logo{
-    margin-left: 50px;
+.scrolledHeader{
+    position: fixed;
+    height: 75px;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    background-color: white;
 }
 
 .menu{
@@ -33,7 +44,7 @@
     display: none;
 }
 
-.logo{
+.mobileLogo{
     display: none;
 }
 
@@ -42,7 +53,7 @@
 }
 
 .headerLogo{
-    width: 50px;
+    width: 100px;
     margin-left: 50px;
     cursor: pointer;
 }
@@ -68,13 +79,19 @@
 }
 
 @media only screen and (max-width: 1000px){
+    .Header{
+        padding-top:15px;
+        padding-bottom: 15px;
+    }
+    
     .menu{
         display: none;
     }
 
-    .logo{
+    .mobileLogo{
         margin-right: 20px;
         display: inline;
+        width:120px;
     }
 
     .phone{
