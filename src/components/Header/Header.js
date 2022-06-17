@@ -66,7 +66,7 @@ class Header extends Component{
                     Contact Us
                 </Link>
             </ul>
-            <h4 className="headerPhone" onClick={()=>{window.open('tel:8018740234')}}>1-801-874-0234</h4>
+            <h4 className="headerPhone" onClick={()=>{window.open('tel:8018740234', "_self")}}>1-801-874-0234</h4>
             <Link className="menuLink"
                     activeClass="active"
                     to="Home"

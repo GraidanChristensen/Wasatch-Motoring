@@ -6,8 +6,8 @@ class Contact extends Component{
     return (
         <div className="Contact" id="Contact">
             <div className="contactContainer">
-              <a rel="noreferrer" className='address' href='https://maps.google.com/?q=165 North 1330 West #A4 Orem, Utah 84057' target="_blank">
-              <a rel="noreferrer" className='address' href='https://maps.apple.com/maps?q=165 North 1330 West #A4 Orem, Utah 84057' target="_blank">
+              <a rel="noreferrer" className='address' href='https://maps.google.com/?q=165 North 1330 West #A4 Orem, Utah 84057'>
+              <a rel="noreferrer" className='address' href='https://maps.apple.com/maps?q=165 North 1330 West #A4 Orem, Utah 84057'>
                 <h3 className='address'>165 North 1330 West #A4 Orem, Utah 84057</h3>
               </a>
               </a>

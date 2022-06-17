@@ -39,7 +39,6 @@ class ContactForm extends Component{
                     <h3 className="formHeading">Message</h3>
                     <textarea className="formInput" id="" cols="30" rows="8" placeholder="Your message" name ="message"></textarea>
                     <h4 className={this.state.toggleSent ? "sentMessage" : "hideMessage"}>Message Sent. We will reach out as soon as possible. Thank you</h4>
-                    {/* <div class="g-recaptcha" data-sitekey="6Ld1dXggAAAAAJW_AZb_D6jV02_5VLLygGXcilQe"></div> */}
                     <input type="submit" className="submitButton" value="Send Message"></input>
                 </form>
             </div>
