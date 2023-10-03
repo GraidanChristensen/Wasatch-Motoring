@@ -8,7 +8,7 @@ class Contact extends Component{
             <div className="contactContainer">
               <a rel="noreferrer" className='address' href='https://maps.google.com/?q=165 North 1330 West #A4 Orem, Utah 84057'>
               <a rel="noreferrer" className='address' href='https://maps.apple.com/maps?q=165 North 1330 West #A4 Orem, Utah 84057'>
-                <h3 className='address'>165 North 1330 West #A4 Orem, Utah 84057</h3>
+                <h3 className='address'>122N 1800W Suite 9, Lindon UT 84042</h3>
               </a>
               </a>
               <h3>1-801-874-0234<br/>info@wasatchmotoring.com</h3>
